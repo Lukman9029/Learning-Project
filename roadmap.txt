@@ -1,0 +1,7 @@
+This page will show my journey in learning programming languages. Actually i don't have any idea where to start, so i will make it based on the project in roadmap.sh
+This time i will try to not using AI Tools first. I will make my best for this project.
+
+First, i'll create project for Website with this point.
+1. Learning about Front-End (Basic HTML, CSS, JS)
+2. Learning about Back-End (Database, PHP)
+3. Learning about Framework (CI3, Laravel, Golang, YII, PHPMakers)
