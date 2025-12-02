@@ -1,3 +1,33 @@
-body {
-    /* min-height: ; */
+@media screen and (orientation: landscape) {
+    body {
+        padding: 50px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        padding: 30px;
+    }
+}
+
+hr {
+    height: 3px;
+    border: 0;
+    color: black;
+    background-color: black;
+    width: 75%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.subtitle {
+    color: rgb(88, 177, 0);
+}
+
+.subtitle1 {
+    color: dodgerblue;
 }
