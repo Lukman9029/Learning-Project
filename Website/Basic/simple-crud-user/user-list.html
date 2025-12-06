@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>User List</h1>
+    <table id="usertable">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Birth</th>
+                <th>Address</th>
+                <th span="2">Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button id="create">add</button>
+
+    <div id="modal"  class="modal">
+        <div class="modal-content">
+            <div class="header">
+                <h3>
+                    Add User
+                    <span id="close" class="close">&times;</span>
+                </h3>
+            </div>
+            <div class="body">
+                <form class="form">
+                    <div class="container">
+                        <div class="row">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Input name ...">
+                        </div>
+                        <div class="row">
+                            <label for="gender">Gender</label>
+                            <input type="radio" name="gender" value="male" id="gender"> Male
+                            <input type="radio" name="gender" value="female" id="gender"> Female
+                        </div>
+                        <div class="row">
+                            <label for="birth">Birth</label>
+                            <input type="date" name="birth" id="birth">
+                        </div>
+                        <div class="row">
+                            <label for="address">Address</label>
+                            <textarea name="Address" id="address"></textarea>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Save" id="save">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
